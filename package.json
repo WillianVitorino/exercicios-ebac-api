@@ -1,0 +1,26 @@
+{
+  "name": "exercicios-ebac-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillianVitorino/exercicios-ebac-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WillianVitorino/exercicios-ebac-api/issues"
+  },
+  "homepage": "https://github.com/WillianVitorino/exercicios-ebac-api#readme",
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  },
+  "dependencies": {
+    "joi": "^17.6.0"
+  }
+}
