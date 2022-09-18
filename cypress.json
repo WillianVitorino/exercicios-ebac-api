@@ -1,5 +1,9 @@
 {
     "baseUrl": "http://localhost:3000/",
+    "screenshotsFolder": "cypress/report/assets",
+    "screenshotOnRunFailure": true,
+    "videoCompression": false,
+    "reporter": "cypress-multi-reporters",
     "reporterOptions": {
         "reporterEnabled": "mochawesome",
         "mochawesomeReporterOptions": {
