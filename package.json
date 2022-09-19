@@ -19,6 +19,7 @@
   "homepage": "https://github.com/WillianVitorino/exercicios-ebac-api#readme",
   "devDependencies": {
     "cypress": "^9.7.0",
+    "cypress-multi-reporters": "^1.6.1",
     "start-server-and-test": "^1.14.0"
   },
   "dependencies": {

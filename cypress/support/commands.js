@@ -28,6 +28,7 @@ Cypress.Commands.add('token', (email, senha) => {
     cy.request({
         url: 'login',
         method: 'POST',
+        failOnStatusCode: false,
         body: {
             email: email,
             password: senha
@@ -38,7 +39,8 @@ Cypress.Commands.add('token', (email, senha) => {
 Cypress.Commands.add('listarUsuarios', () => {
     cy.request({
         url: 'usuarios',
-        method: 'GET',    
+        method: 'GET',
+        failOnStatusCode: false    
    })
 })
 
@@ -60,6 +62,7 @@ Cypress.Commands.add('listarProdutos', () =>{
     cy.request({
         url: 'produtos',
         method: 'GET',
+        failOnStatusCode: false
    })
 })
 
