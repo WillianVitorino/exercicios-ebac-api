@@ -23,6 +23,7 @@ jobs:
         continue-on-error: true
         with:
           install-command: npm install
+          browser: chrome
           with: npm start
       - name: Publish report
         uses: peaceiris/actions-gh-pages@v3
