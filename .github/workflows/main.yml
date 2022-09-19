@@ -25,6 +25,7 @@ jobs:
           install-command: npm install
           browser: chrome
           start: npm start
+          wait-on: 'http://localhost:3000'
       - name: Publish report
         uses: peaceiris/actions-gh-pages@v3
         with:
